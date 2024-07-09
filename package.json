@@ -1,0 +1,22 @@
+{
+  "name": "serta-mulia",
+  "version": "1.0.0",
+  "description": "Branch ini digunakan untuk modul Studi Kasus: Membangun Aplikasi Machine Learning Dengan Google Cloud.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./src/server/server.js",
+    "start": "node ./src/server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.7.0",
+    "@hapi/hapi": "^21.3.9",
+    "@tensorflow/tfjs-node": "^4.19.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
